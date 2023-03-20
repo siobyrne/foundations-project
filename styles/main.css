@@ -1,2 +1,20 @@
 /* Styles for The Odin Project - Foundations Website Project */
 
+/* Header/Hero */
+
+.header, .footer{
+    background-color: #1f2937;
+}
+
+.header{
+    color: #f9faf8;
+}
+
+.header a{
+    color: #e5e7eb;
+}
+
+.hero-section h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
