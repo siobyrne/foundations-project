@@ -18,3 +18,13 @@
     font-size: 48px;
     font-weight: extra-bold;
 }
+
+.hero-section p{
+    font-size: 18px;
+}
+
+/* Navigation */
+
+ul li{
+    font-size: 18px;
+}
