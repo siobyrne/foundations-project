@@ -1,5 +1,12 @@
 /* Styles for The Odin Project - Foundations Website Project */
 
+
+.flex-container{
+    display: flex;
+}
+
+
+
 /* Header/Hero */
 
 .header, .footer{
@@ -27,4 +34,5 @@
 
 ul li{
     font-size: 18px;
+    display:inline-block;
 }
