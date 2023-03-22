@@ -1,24 +1,30 @@
 /* Styles for The Odin Project - Foundations Website Project */
 
 
-.flex-container{
-    display: flex;
-}
 
+.container{
+    display: flex;
+    background-color: #1f2937;
+}
 
 
 /* Header/Hero */
 
-.header, .footer{
-    background-color: #1f2937;
-}
-
 .header{
+    border: 1px solid blueviolet;
+    width: 1000px;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .header a{
     color: #e5e7eb;
+}
+
+.hero-section{
+    
 }
 
 .hero-section h1{
@@ -32,7 +38,23 @@
 
 /* Navigation */
 
-ul li{
-    font-size: 18px;
-    display:inline-block;
+.logo{
+    
+}
+
+.nav{
+    /*width: 700px;*/
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px; 
+}
+
+.nav div{
+    margin-left: 20px;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #1f2937;
 }
