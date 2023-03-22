@@ -1,22 +1,26 @@
 /* Styles for The Odin Project - Foundations Website Project */
-
-
-
-.container{
-    display: flex;
-    background-color: #1f2937;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-family: Roboto, sans-serif;
 }
+
 
 
 /* Header/Hero */
 
+.header-container{
+    display: flex;
+    background-color: #1f2937;
+}
+
 .header{
     border: 1px solid blueviolet;
-    width: 1000px;
+    /*width: 1000px;*/
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    margin: 10px 30px 0 100px;
 }
 
 .header a{
@@ -38,19 +42,20 @@
 
 /* Navigation */
 
-.logo{
-    
+.logo p{
+    font-size: 24px;
+    color:#f9faf8;
 }
 
 .nav{
-    /*width: 700px;*/
     display: flex;
     justify-content: flex-end;
     font-size: 18px; 
+    align-items: center;
 }
 
 .nav div{
-    margin-left: 20px;
+    margin-left: 28px;
 }
 
 
