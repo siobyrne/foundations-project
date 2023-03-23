@@ -90,8 +90,9 @@ html{
     text-align: center;
     /*padding: 60px 250px 60px 250px;*/
     height: auto;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
+    padding-top: 8%;
 }
 
 .quote blockquote span{
