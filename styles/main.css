@@ -1,5 +1,5 @@
 /* Styles for The Odin Project - Foundations Website Project */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 html{
     font-family: Roboto, sans-serif;
 }
@@ -80,13 +80,24 @@ html{
 .quote{
     background-color: #e5e7eb;
     width: 100%;
-    height: 250px;
+    height: 350px;
+    overflow: auto;
 }
 
 .quote blockquote{
+    font-style:italic;
     font-size: 36px;
     text-align: center;
-    padding: 60px;
+    /*padding: 60px 250px 60px 250px;*/
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quote blockquote span{
+    font-style:normal;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
